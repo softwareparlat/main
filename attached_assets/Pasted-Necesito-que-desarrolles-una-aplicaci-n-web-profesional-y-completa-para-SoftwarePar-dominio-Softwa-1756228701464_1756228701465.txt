@@ -1,0 +1,124 @@
+Necesito que desarrolles una aplicación web profesional y completa para SoftwarePar (dominio: SoftwarePar.Lat) usando tecnologías modernas de Node.js.
+
+STACK TECNOLÓGICO REQUERIDO:
+
+Backend: Node.js con Express.js o Fastify
+Frontend: React.js o Next.js (preferiblemente Next.js para SSR)
+Base de datos: PostgreSQL con Prisma ORM
+Autenticación: NextAuth.js o Auth0
+Styling: Tailwind CSS + shadcn/ui components
+Pagos: Mercado Pago SDK para Argentina
+Email: Nodemailer o SendGrid
+Deployment: Optimizado para Replit
+INFORMACIÓN DE LA EMPRESA:
+
+Nombre: SoftwarePar
+Dominio: SoftwarePar.Lat
+Especialidad: Desarrollo de software y aplicaciones a medida
+MODELO DE NEGOCIO:
+
+Ofrecemos desarrollo de software/aplicaciones a medida
+Dos modalidades de servicio:
+Compra Completa: Cliente paga precio total y recibe código fuente completo
+Partnership: Cliente paga precio reducido, se convierte en partner y puede revender licencias a colegas de su rubro
+Sistema de licencias para partners con comisiones automáticas
+Facturación A disponible para generar confianza
+FUNCIONALIDADES REQUERIDAS:
+
+1. SITIO WEB PÚBLICO (Next.js):
+
+Landing page moderna con animaciones suaves
+Componentes reutilizables con shadcn/ui
+Header con logo "SoftwarePar" y navegación responsive
+Hero section impactante
+Sección "Sobre SoftwarePar"
+Servicios ofrecidos con cards modernas
+Explicación clara de las dos modalidades con comparación visual
+Tabla de precios interactiva
+Testimonios con carousel
+Formulario de contacto con validación
+Footer moderno con información de contacto
+Blog/noticias con sistema CMS básico
+SEO optimizado con Next.js
+Diseño mobile-first completamente responsive
+2. SISTEMA DE AUTENTICACIÓN MODERNO:
+
+NextAuth.js con múltiples providers
+Registro con validación de email en tiempo real
+Login con 2FA opcional
+Recuperación de contraseñas
+Perfiles de usuario diferenciados (Cliente, Partner, Admin)
+JWT tokens seguros
+Rate limiting avanzado
+3. DASHBOARD PARA PARTNERS (React Components):
+
+Dashboard moderno con gráficos (Chart.js o Recharts)
+Gestión de licencias con tabla interactiva
+Calculadora de ganancias en tiempo real
+Historial de ventas con filtros avanzados
+Enlaces de referidos únicos (softwarepar.lat/ref/[codigo])
+Estadísticas con visualizaciones modernas
+Reportes descargables (PDF con jsPDF)
+Notificaciones push en tiempo real
+4. PANEL DE ADMINISTRACIÓN:
+
+Dashboard administrativo completo
+Gestión de usuarios con búsqueda y filtros
+Administración de proyectos con kanban board
+Control de pagos con integración Mercado Pago
+Analytics avanzados con gráficos interactivos
+Gestión de contenido del sitio
+Sistema de tickets/soporte con chat en tiempo real
+Configuración de la plataforma
+5. CARACTERÍSTICAS TÉCNICAS MODERNAS:
+
+Base de datos: PostgreSQL con Prisma ORM
+API REST: Endpoints bien documentados con Swagger
+Pagos: Integración completa con Mercado Pago SDK
+Emails: Sistema automatizado con templates HTML
+Real-time: WebSockets para notificaciones
+Caching: Redis para optimización
+File uploads: Cloudinary o AWS S3
+Logging: Winston para logs estructurados
+Testing: Jest + React Testing Library
+6. FUNCIONALIDADES ADICIONALES:
+
+Sistema de tickets/soporte con chat en vivo
+Calculadora de ganancias interactiva para partners
+Reportes descargables con membrete SoftwarePar (PDF)
+Sistema de notificaciones push
+Integración con redes sociales
+PWA capabilities
+Dark/Light mode toggle
+Internacionalización (i18n) preparada
+DISEÑO Y UX MODERNO:
+
+Design system consistente con Tailwind CSS
+Componentes de shadcn/ui personalizados
+Animaciones suaves con Framer Motion
+Loading states y skeleton screens
+Error boundaries y manejo de errores elegante
+Micro-interacciones
+Accesibilidad completa (WCAG 2.1)
+Performance optimizado (Core Web Vitals)
+SEGURIDAD AVANZADA:
+
+HTTPS obligatorio
+CORS configurado correctamente
+Sanitización de inputs
+Rate limiting por IP y usuario
+Validación con Zod en frontend y backend
+Encriptación de datos sensibles
+Logs de auditoría
+Protección CSRF
+ESTRUCTURA DEL PROYECTO:
+
+/
+├── frontend/ (Next.js)
+├── backend/ (Node.js + Express)
+├── shared/ (tipos TypeScript compartidos)
+├── database/ (Prisma schema y migrations)
+└── docs/ (documentación API)
+
+Por favor, desarrolla esta aplicación moderna y profesional para SoftwarePar usando las mejores prácticas de desarrollo actual. Asegúrate de que sea escalable, mantenible y con código limpio y bien documentado.
+
